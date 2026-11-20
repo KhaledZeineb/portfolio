@@ -1,3 +1,4 @@
+
 const projects = [
   {
     number: "01",
@@ -13,7 +14,7 @@ const projects = [
     name: "Application immobilière",
     type: "Application mobile · En équipe",
     description:
-      "Application mobile de consultation et de gestion d'annonces immobilières, avec recherche, favoris et affichage des biens.",
+      "Application mobile de consultation et de gestion d&apos;annonces immobilières, avec recherche, favoris et affichage des biens.",
     stack: ["Flutter", "Node.js", "PostgreSQL"],
     link: "https://github.com/KhaledZeineb/app_immobilier_flutter",
   },
@@ -31,7 +32,7 @@ const projects = [
     name: "University Management Platform",
     type: "Projet en équipe",
     description:
-      "Plateforme de gestion universitaire organisée autour de fonctionnalités de gestion et d'une architecture basée sur des microservices.",
+      "Plateforme de gestion universitaire organisée autour de fonctionnalités de gestion et d&apos;une architecture basée sur des microservices.",
     stack: ["React", "Microservices"],
     link: "https://github.com/KhaledZeineb/university-management-platform1",
   },
@@ -63,8 +64,8 @@ export default function Home() {
           <h2>Développeuse Full Stack <i>·</i> Master DevOps &amp; Cloud</h2>
           <p className="intro">
             Je conçois et développe des applications web et mobiles.
-            J'aime transformer des idées en solutions numériques utiles,
-            de l'interface utilisateur jusqu'au backend et aux bases de données.
+            J&apos;aime transformer des idées en solutions numériques utiles,
+            de l&apos;interface utilisateur jusqu&apos;au backend et aux bases de données.
           </p>
           <div className="actions">
             <a className="button primary" href="#projets">Découvrir mes projets <span>↘</span></a>
@@ -90,9 +91,9 @@ export default function Home() {
             je poursuis actuellement un Master en DevOps &amp; Cloud.
           </p>
           <p>
-            Mon parcours m'a permis de travailler sur des projets web et mobiles,
-            individuellement et en équipe. Je m'intéresse au développement Full Stack,
-            à la conception d'API, aux bases de données et aux pratiques modernes de
+            Mon parcours m&apos;a permis de travailler sur des projets web et mobiles,
+            individuellement et en équipe. Je m&apos;intéresse au développement Full Stack,
+            à la conception d&apos;API, aux bases de données et aux pratiques modernes de
             déploiement logiciel.
           </p>
           <a className="text-link" href="mailto:khaledzeineb81@gmail.com">Échanger avec moi ↗</a>
@@ -101,7 +102,7 @@ export default function Home() {
 
       <section className="section skills" id="competences">
         <div className="section-heading"><p className="eyebrow">02 / SAVOIR-FAIRE</p><h2>Technologies &amp; <span>outils.</span></h2></div>
-        <p className="section-intro">Les technologies que j'ai utilisées dans mes projets et travaux pratiques.</p>
+        <p className="section-intro">Les technologies que j&apos;ai utilisées dans mes projets et travaux pratiques.</p>
         <div className="skill-list">{skills.map((skill) => <span className="skill" key={skill}>{skill}</span>)}</div>
       </section>
 
@@ -126,9 +127,9 @@ export default function Home() {
         <div className="section-heading"><p className="eyebrow">04 / PARCOURS</p><h2>Formation &amp; <span>expériences.</span></h2></div>
         <div className="timeline">
           <article><span className="timeline-date">EN COURS</span><div><h3>Master DevOps &amp; Cloud</h3><p>ISET Tozeur · Tunisie</p></div></article>
-          <article><span className="timeline-date">2026</span><div><h3>Stage de projet de fin d'études</h3><p>Host Desert Navigation · Tozeur</p><p className="timeline-detail">Participation au développement de VAT Dattes, une plateforme web et mobile dédiée au commerce et à la logistique des dattes tunisiennes.</p></div></article>
+          <article><span className="timeline-date">2026</span><div><h3>Stage de projet de fin d&apos;études</h3><p>Host Desert Navigation · Tozeur</p><p className="timeline-detail">Participation au développement de VAT Dattes, une plateforme web et mobile dédiée au commerce et à la logistique des dattes tunisiennes.</p></div></article>
           <article><span className="timeline-date">2025</span><div><h3>Stage en développement logiciel</h3><p>ITQAN · Tozeur</p><p className="timeline-detail">Découverte et participation à des activités de développement logiciel dans un environnement professionnel.</p></div></article>
-          <article><span className="timeline-date">2024</span><div><h3>Stage d'initiation</h3><p>Banque de Tunisie · Tozeur</p><p className="timeline-detail">Découverte des opérations bancaires, accueil et orientation des clients.</p></div></article>
+          <article><span className="timeline-date">2024</span><div><h3>Stage d&apos;initiation</h3><p>Banque de Tunisie · Tozeur</p><p className="timeline-detail">Découverte des opérations bancaires, accueil et orientation des clients.</p></div></article>
           <article><span className="timeline-date">DIPLÔME</span><div><h3>Licence en Développement des Systèmes Informatiques</h3><p>ISET Tozeur · Tunisie</p></div></article>
         </div>
       </section>
